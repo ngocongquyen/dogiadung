@@ -1,0 +1,152 @@
+/* Mobile & Tablet */
+@media (max-width:1023px) {
+    .hidden-on-mobile-tablet {
+        display: none;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px) {
+    .header_navbar-link {
+        padding:0 5px;
+    }
+    .header_navbar-icon {
+        padding:0 4px;
+    }
+    .home-filter__item {
+        padding-right: 20px;
+    }
+    .home-filter__link {
+        font-size:14px;
+    }
+    .home-filter__img {
+        right: -3%;
+    }
+    .category-item {
+        padding-right:10px;
+    }
+    .home-slider__img1 {
+        height:168px;
+    }
+}
+
+@media (max-width:739px) {
+    .header-middle__img {
+        margin: 10px 0;
+    }
+    .header-mid__search-icon {
+        right:3%;
+    }
+    .header-mid__cart {
+        display: none;
+    }
+
+    .btnMobile {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .btnMenuMobile {
+        text-decoration: none;
+        color: var(--black-color);
+        font-size: 20px;
+        padding:0 4px;
+    }
+
+    .mobile-paddingleft {
+        padding-left: 0;
+    }
+
+   .main {
+       overflow: hidden;
+   }
+
+    .category {
+        display: none;
+    }
+
+    .home-filter {
+        display: none;
+    }
+    
+    .home-slider__link {
+        padding:0;
+        margin:0;
+    }
+
+    .home-slider__img {
+        height:100%;
+    }
+
+    .home-slider__img-wrapper {
+        display: none;
+    }
+
+    .slider-advertisement {
+        display: none;
+    }
+
+    .home-product {
+        margin-top: 10px;
+    }
+
+    .paddingmobile0 {
+        padding: 0;
+    }
+
+    .home-product__all {
+        display: none;
+    }
+
+    .footer-icon__top {
+        display: none;
+    }
+
+    .paddingright {
+        padding-right: 15px;
+    }
+
+    .mobilemargin0 {
+        margin-right:-15px;
+    }
+
+    .item-mobile {
+        background-color: #fff;
+        position: absolute;
+        z-index: 9999;
+        left: 0;
+        top: 41px;
+        width: 100%;
+        display:none;
+        box-shadow: -1px 6px 7px 3px rgba(0,0,0,0.7);
+    }
+
+    .item-mobile__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    .item-mobile__link {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 6px 10px;
+        margin-left: 6px;
+    }
+
+    .item-mobile__link:hover {
+        color:#fff;
+        background-color: #ea3a3c;
+        text-decoration:none;
+    }
+    .item-mobile__icon {
+        margin-right: 4px;
+    }
+
+}
